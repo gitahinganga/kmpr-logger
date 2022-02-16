@@ -55,15 +55,15 @@ loggingserver/oec.log.lck
 
 # Lock files #
 ##############
-*/*.lck
-*/*/*.lck
+*.lck
 
 # Embedded databases #
 ######################
-*/QUEUEMANAGER_DATABASE/*
-*/*/QUEUEMANAGER_DATABASE/*
-reception/reception_database/*
-reception/*/reception_database/*
+QUEUEMANAGER_DATABASE
+
+# Configuration properties files #
+######################
+openemrconnect.properties
 
 # Eclipse #
 ###########
